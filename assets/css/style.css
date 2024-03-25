@@ -5,7 +5,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-footer-top
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -930,7 +930,7 @@ dropdown .breadcrumbs ol li + li {
   padding: 40px 20px;
   background: #fff;
   text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 30px rgba(207, 211, 217, 0.08);
   border-radius: 4px;
   position: relative;
   overflow: hidden;
@@ -939,7 +939,7 @@ dropdown .breadcrumbs ol li + li {
 
 .pricing .box:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  box-shadow: 0px 0 30px rgb(217, 191, 20);
 }
 
 .pricing h3 {
@@ -994,18 +994,18 @@ dropdown .breadcrumbs ol li + li {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: orange;
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid orange;
 }
 
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: orange;
   color: #fff;
 }
 
@@ -1025,7 +1025,7 @@ dropdown .breadcrumbs ol li + li {
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
-.faq .accordion-collapse {
+/* .faq .accordion-collapse {
   border: 0;
 }
 
@@ -1051,7 +1051,7 @@ dropdown .breadcrumbs ol li + li {
 .faq .accordion-body {
   padding: 0 0 25px 0;
   border: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
