@@ -3,3 +3,59 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  margin-top: 105px;
+  background: url(../../img/footer-bg.png);
+}
+.login--page {
+  padding-top: 50px;
+  margin: auto;
+  width: 40%;
+  height: 70vh;
+  border: 1px solid rgb(233, 210, 168);
+  background-color: white;
+  border-radius: 20px;
+}
+.login--page img {
+  margin-left: 35%;
+}
+@media only screen and (max-width: 660px) {
+  .login--page img {
+    width: 90px;
+    margin-left: 25px;
+  }
+}
+.login--page h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(255, 165, 0);
+}
+.login--page input {
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 80%;
+  height: 50px;
+  padding: 20px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-color: rgb(255, 165, 0);
+  border-radius: 3px;
+  outline-color: rgb(255, 165, 0);
+}
+.dont--have--account {
+  font-size: 13px;
+  color: gray;
+}
+.head {
+  justify-content: space-between;
+  /* background-color: white; */
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 80%;
+}
+.forgot--password {
+  font-size: 13px;
+}
