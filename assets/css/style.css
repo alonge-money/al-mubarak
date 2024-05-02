@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-:root {
+hover :root {
   scroll-behavior: smooth;
 }
 
@@ -254,7 +254,7 @@ dropdown .breadcrumbs ol li + li {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: rgb(44, 42, 42);
 }
 
 .navbar .megamenu {
