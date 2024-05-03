@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sigh In</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="login.css" />
     <link href="../../img/apple-touch-icon.png" rel="icon" />
   </head>
@@ -12,14 +12,18 @@
       <div style="width: 100%; text-align: center">
         <img src="../../img/apple-touch-icon.png" alt="" srcset="" />
       </div>
-      <h1>Sigh Up</h1>
+      <h1>Sigh In</h1>
       <form action="">
-        <input type="text" placeholder="First Name" />
-        <input type="text" placeholder="Last Name" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <div class="getstarted">
+          <button type="submit" class="submit">Sign In</button>
+        </div>
       </form>
       <div class="head">
         <div class="dont--have--account">
-          Don’t have an account? <a href="">Sigh Up</a>
+          Don’t have an account?
+          <a href="../register.html" style="text-decoration: none">Sign In</a>
         </div>
         <div class="forgot--password">
           <a href="" style="text-decoration: none">Forgot Password?</a>

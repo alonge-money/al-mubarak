@@ -25,7 +25,7 @@ body {
   margin-top: 10px;
   margin-left: 20px;
   width: 90%;
-  height: 50px;
+  height: 10px;
   padding: 20px;
   font-size: 15px;
   border: 1px solid gray;
@@ -40,31 +40,29 @@ body {
     padding-bottom: 15px;
     padding-right: 20px;
   }
-}
-@media only screen and (max-width: 740px) {
-  .register--page {
-    width: 90%;
-    height: auto;
-    padding-bottom: 15px;
-    padding-right: 20px;
+  .register--page .submit {
+    width: 96%;
+    height: 40px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .having--account {
-    font-size: 10px;
-    /* padding-left: 0px; */
+    font-size: 8px;
+    padding-left: 9px;
   }
 }
 @media only screen and (max-width: 600px) {
   .having--account a {
     font-size: 10px;
+    text-decoration: none;
     /* padding-left: 0px; */
   }
 }
 @media only screen and (max-width: 600px) {
   .forgot--password a {
     font-size: 10px;
-    padding-left: 4px;
+    padding-left: 5px;
   }
 }
 .getstarted {
@@ -94,6 +92,7 @@ body {
   flex-wrap: wrap;
   display: flex;
   margin-top: 15px;
-  margin-left: 20px;
-  width: 80%;
+  margin-left: 9px;
+  width: 93%;
+  /* background-color: red; */
 }
